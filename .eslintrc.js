@@ -14,7 +14,13 @@ module.exports = {
       "react/react-in-jsx-scope": "off",
       "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
       "import/prefer-default-export": "off",
-      "react/function-component-definition": "off"
+      "react/function-component-definition": "off",
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto"
+        },
+      ],
     },
     plugins: ["prettier"],
     ignorePatterns: [".eslintrc.js"],
