@@ -27,6 +27,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
